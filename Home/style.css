@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ysabeau";
+}
+
+@font-face {
+    font-family: "Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url(./Cinzel-VariableFont_wght.ttf);
+}
+
+.headerMain {
+    background-image: url(../img/foto4chicas.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.contenedor {
+    margin-left: 5vw;
+
+}
+
+
+.genero {
+    padding-top: 3vh;
+    font-size: 10vh;
+    color: aliceblue;
+    font-family: "Ysabeau";
+
+}
+
+.control h1 {
+    color: white;
+    font-size: 15vh;
+    font-family: "Ysabeau";
+    margin-left: 6vw;
+}
+
+.subtitle {
+
+    font-size: 6vh;
+    color: white;
+    font-family: "Ysabeau";
+    
+}
+
+.total {
+    display: flex;
+    background: linear-gradient(#1e6468, #24d4df);
+    height: 10vh;
+    align-items: center;
+
+}
+
+.inicio {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2A959B;
+    color: rgb(255, 255, 255);
+    font-family: "cinzel";
+    margin-left: 5vh;
+    margin-right: 15vh;
+    border-radius: 25%;
+    border: #1e6468;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+.conteinerparrafo {
+    width: 100%;
+    justify-content: end;
+    margin-left: 5%;
+    margin: right 20%;
+    font-size: 2.5vh;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(23, 52, 219);
+    font-family: "cinzel";
+    font-size: 2.5 vh;
+}
+
+.parrafo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ 
+.inicio:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.parrafo:hover {
+    color: #164fee;
+    
+}
+
+
+#body {
+    background-color: black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.mediumBox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;}
+
+.Molecule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    
+} 
+
+
+.main img {
+    height: 32vh;
+    width: 24vw;
+    border-radius: 15px
+}
+
+.main p {
+    color: white;
+    width: 24vw;
+    text-align: justify;
+
+}
+
+
+.yellow {
+    background: #EEE616;
+    height: 1vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #EEE616;
+}
+
+.main {
+    background-color: black;
+    color: white;
+
+}
+
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.colorfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 12vh;
+}
+
+.cise {
+    height: 10vh;
+
+}
+
+.gobierno {
+    height: 10vh
+}
+
+.plan {
+    height: 10vh
+}
+
+.union {
+    height: 10vh
+}
+
+
+footer {
+    border: black 2px solid;
+    background: linear-gradient(#1E6468, #24D4DF);
+    padding-bottom: 8vh
+}
+
+
+.allname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    margin-top: 05vh
+}
+
+.allfooter{color: white;}
+
+.logo {
+
+    height: 3vh;
+
+}
+.logoandcopy{
+    display: flex;
+}
+.Video{
+    width:  100%;
+    background-color:#1E6468;
+    
+    
+}
+
+
+@media (max-width:414px){
+
+ .subtitle {
+    font-size: small;
+ }
+.mediumBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+      
+}
+.Molecule{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;  
+         
+    
+}
+.cise{
+    height: 5vh;
+    
+
+}
+.gobierno{
+    height: 5vh;
+    
+}
+.plan{
+    height: 5vh;
+}
+.union{
+    height: 5vh;
+}
+
+.politica{
+    font-size: 2vh;
+}    
+
+.allname {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;   
+    align-items: baseline;   
+    margin-left: 10vh;      
+   }
+   .colorfooter{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+       }
+    .parrafo{font-size: 2vh;}}
+
+                                       
+    
